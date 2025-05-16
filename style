@@ -1,9 +1,3 @@
 body {
-  font-family: "Helvetica";
-  background-image: url(https://https://yandex.ru/images/search?img_url=https%3A%2F%2Fkrots.top%2Fuploads%2Fposts%2F2024-01%2F1705957803_krots-top-p-fon-dlya-prezentatsii-iskusstvennii-intell-21.png&lr=145956&p=2&pos=3&rpt=simage&serp_list_type=ideas&source=serp&stype=image&text=tps%3A%2F%2Fimages.wallpaperscraft.ru%2Fimage%2Fsingle%2Fstol_ekrany_stul_1049560_2560x1600.jpg)%3B;
-  color: #FFFF00            ;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #f0f0f0; /* Серый цвет */
 }

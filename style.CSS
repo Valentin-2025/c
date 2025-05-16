@@ -1,9 +1,3 @@
 body {
-  font-family: "Helvetica";
-  background-image: url(https://images.wallpaperscraft.ru/image/single/stol_ekrany_stul_1049560_2560x1600.jpg);
-  color: #FFFF00            ;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #f0f0f0; /* Серый цвет */
 }
