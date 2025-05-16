@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка Валентин Ретюнский</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .visiting-card {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .position {
+            color: #7f8c8d;
+            margin-bottom: 25px;
+        }
+
+        .contacts {
+            margin: 20px 0;
+        }
+
+        .contacts p {
+            margin: 10px 0;
+            color: #34495e;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #3498db;
+            padding: 10px 15px;
+            border: 2px solid #3498db;
+            border-radius: 25px;
+            transition: all 0.3s;
+        }
+
+        .social-links a:hover {
+            background: #3498db;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="visiting-card">
+        <img src="avatar.jpg" alt="Фото Валентина" class="avatar">
+        <h1>Валентин Ретюнский</h1>
+        <p class="position">QA</p>
+        
+        <div class="contacts">
+            <p> &#9993; retvaliv72@mail.ru</p>
+            <p> &#9742; +7 (999) 000-11-11</p>
+            <p> &#127760; Славянск-на-Кубани, Краснодарский край, Россия</p>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://id.vk.com/about/id" target="_blank">VK</a>
+            <a href="https://t.me" target="_blank">Telegram</a>
+        </div>
+    </div>
+</body>
+</html>
+
