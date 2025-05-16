@@ -1,0 +1,8 @@
+body {
+    background-image: url("aa.jpg"); /* Путь к картинке */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* На весь экран по вертикали */
+  
+}
